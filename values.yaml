@@ -1,0 +1,39 @@
+refresh:
+  imagetag: 0.0.0-SNAPSHOT-PR-105-4
+  refreshJobrb:
+    enabled: true
+  refreshJobsa:
+    enabled: true
+  refreshRole:
+    enabled: true
+  refreshJob:
+    enabled: true
+    args:
+    - refresh
+    - token
+    - --host
+    - https://jx-tenant-service-jx.aps-raccoonshimmer.jxaas.dev
+
+  service:
+    enabled: false
+  updatejob:
+    enabled: false
+
+  basicAuthSecret:
+    enabled: false
+  cloudsqlsa:
+    enabled: false
+  deployment:
+    enabled: false
+  rolebinding:
+    enabled: false
+  saasSecret:
+    enabled: false
+  secret:
+    enabled: false
+  serviceAccount:
+    enabled: false
+  wildcardSecret:
+    enabled: false
+  refreshRole:
+    enabled: false

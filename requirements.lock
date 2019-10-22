@@ -1,0 +1,6 @@
+dependencies:
+- name: jx-tenant-service
+  repository: https://storage.googleapis.com/chartmuseum.jenkins-x.io
+  version: 0.0.86
+digest: sha256:e028a43665ade02b7a95d7cda1ba056d09ed9fdb9a1461f2661e3e530ba7523f
+generated: "2019-10-22T09:27:57.323385+01:00"

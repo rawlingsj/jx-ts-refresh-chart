@@ -1,0 +1,5 @@
+dependencies:
+- name: jx-tenant-service
+  alias: refresh
+  version: 0.0.86
+  repository: https://storage.googleapis.com/chartmuseum.jenkins-x.io
